@@ -1,0 +1,53 @@
+{
+  "name": "saloodo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/node": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "helmet": "^3.15.0",
+    "history": "^4.7.2",
+    "mongodb-memory-server": "^2.7.4",
+    "mongoose": "^5.3.14",
+    "mongoose-dummy": "^1.0.8",
+    "node-mongoose-fixtures": "^0.3.0",
+    "nodeidon": "^0.0.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-google-login": "^4.0.0",
+    "react-redux": "^5.1.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^2.1.1",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  },
+  "scripts": {
+    "server": "babel-node server/app.js",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
